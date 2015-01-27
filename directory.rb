@@ -1,32 +1,36 @@
-# First we print the list of students
+# Let's put all the students into an array
+students = [
+   "Christopher Ward",
+   "Rizwan Ali",
+   "Vanessa Virgitti",
+   "Tommaso Bratto",
+   "Joe Newman",
+   "Loris Fochesato",
+   "Guido Vita Finzi",
+   "Tom Coakes",
+   "Kevin Lanzon",
+   "Sebastien Pires",
+   "Yannick Brunner",
+   "Costas Sarris",
+   "Diego Romero",
+   "Erik Griffn",
+   "Thomas Strothjohann",
+   "Alex Parkinson",
+   "Carrie Christenson",
+   "Julian Veling",
+   "Edward Brown",
+   "Meads Chalcroft",
+   "Sean Haughton",
+   "Paul Fitzgerald",
+   "Phil Brockwell",
+   "Kate Beavis"
+]
+# And then print them 
 puts "The students of my cohort at Makers Academy"
 puts "-------------"
-puts "Christopher Ward"
-puts "Rizwan Ali"
-puts "Vanessa Virgitti"
-puts "Tommaso Bratto"
-puts "Joe Newman"
-puts "Loris Fochesato"
-puts "Guido Vita Finzi"
-puts "Tom Coakes"
-puts "Kevin Lanzon"
-puts "Sebastien Pires"
-puts "Yannick Brunner"
-puts "Costas Sarris"
-puts "Diego Romero"
-puts "Erik Griffn"
-puts "Thomas Strothjohann"
-puts "Alex Parkinson"
-puts "Carrie Christenson"
-puts "Julian Veling"
-puts "Edward Brown"
-puts "Meads Chalcroft"
-puts "Sean Haughton"
-puts "Paul Fitzgerald"
-puts "Phil Brockwell"
-puts "Kate Beavis"
-# Finally we print the total
-print "Overall, we have "
-# It's important that print() doesnt add new line characters
-print 24
-puts " great students"
+students.each do |student|
+	puts student
+end
+
+# Finally, we print the total
+puts "Overall, we have #{students.length} great students."
