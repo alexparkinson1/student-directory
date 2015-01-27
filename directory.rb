@@ -24,3 +24,7 @@ puts "Sean Haughton"
 puts "Paul Fitzgerald"
 puts "Phil Brockwell"
 puts "Kate Beavis"
+
+print "Overall, we have "
+print 24
+puts " great students"
